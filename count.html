@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>world count</title>
+</head>
+<body>
+	<style type="text/css">
+
+		div{background: rgb(254,52,190);
+			text-align: center;
+			width: 50vw;
+			height: 50vh;
+			margin-left: 15vw;}
+			h2{color: gold;
+				font-size: 34px;}
+				input{margin-top: 4vh;
+					}
+				#but{color: white;
+					background:blue;
+					height: 4vh;
+					border-radius: 25%;
+					height: 5vh;}
+				#count{width: 3vw;
+					background: #22d1a7;}
+				#inp{height: 5vh;
+					width:15vw;}
+			</style>
+			<div>
+<h1>type a world in the box</h1>
+<input id="word" type="text" value ="hello"><br>
+<input id="count" type="text" value="5"><br>
+<input id="but" type="button" value="click to caculateworld length" onclick="counter()">
+</div>
+<script type="text/javascript">
+	function counter() {var input=document.getElementById('word').value;
+	var count=input.length;
+	document.getElementById('count').value=count;
+		// body...
+	}
+</script>
+</body>
+</html>
