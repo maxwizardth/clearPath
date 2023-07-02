@@ -1,0 +1,187 @@
+
+ /* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  position: relative;
+  background: #093c90;
+  color: white;
+  border: none;
+  padding: 15px 10px 15px 10px;
+  margin: 20px;
+   display: block;
+   cursor: pointer;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 9;
+  border-radius: 10px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 250px;
+  padding: 10px;
+  background:  #093c90;
+  color: white;
+  border-radius: 10px;
+   border: 3px solid #f1f1f1;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=email], .form-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 3px 0 11px 0;
+  border: none;
+  
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password], .form-container input[type=email], .form-container textarea:focus {
+ 
+  outline: none;
+
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: white;
+  color: #003666;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  width: 45%;
+  margin: auto;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+  color: white;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 650px) {
+
+  li{padding: 9px 5px 9px 20px;
+  }
+
+  .content{max-width: 95%;
+  }
+
+  .close{ padding: 12px 8px 12px 16px;
+  }
+     .form-container{position: relative;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-popup{position: relative;
+    display: block;
+    left: 0px;
+  }
+}
+
+
+
+
+    body{
+    background-image: linear-gradient(rgba(6, 60, 96, 0.2) 0%, rgba(6, 60, 96, 0.8) ), url("../Quiz Images/welcome 1.jpeg");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*Mine        iooooooooooooooooooooooo*/
+
+  #accordion{width: 100%;
+    margin-bottom: 9px;}
+  .header{background: rgb(21,117,17);
+    color: white;
+    padding:16px;
+    height: 10%;
+     padding-left:25%; }
+
+    .fa{color: blue}
+    .card-header{background: #999999;
+      color: white}
+    .card-header:hover{background:  #3355aa;
+      color: white
+      }
+    a.btn{color: white}
+    .body{padding-top:8%;
+      margin-top: 15px}
+    footer{padding: 12px;
+      background: #5566aa;;
+      color: white
+    }
+    .logo{margin-left: 5px;
+      color: white;
+      font-size: 22px;}
+      h3{font-family: sans-serif;}
+      .info{margin-top: 10px;}
+     
+      @media only screen and (max-width: 750px) {
+    .pagination {
+        display: none;
+    }
+    .body{padding-top: 14%;}
+    #quest{height: 90%}
+    .question{padding: 22px;
+      
+        }
+      #seconds,#minute{width: 35px;margin: 0px;
+      border: solid 1px white;}
+      }
+      .optionBorder{border: solid #ddd 2px;
+        background: #eee;
+        padding: 11px;
+        margin-bottom: 11px}
+        .question{background: #eee;
+          margin-bottom: 10px;}
+        .pagination{margin-top: 12px}
+        .btn-sm{margin-left: 9px;
+          margin-bottom: 14px;
+          border-radius: 6px;}
+        .form-check{border-radius: 22px;
+    }
+    #seconds,#minute{width: 50px;margin: 0px;
+      border: solid 1px white;}
+      .progress{border-radius: 22px;
+        margin-bottom: 11px;}
+        .subject{display: none;}
+        
+  #myModal{padding: 26px;
+    background: #331188; 
+    background:-webkit-linear-gradient(60deg, #222399,white,#223399);
+    height: 80%;
+    
+}
+.modal-content{background: #4477aa;
+text-align: center;
+color: white}
+.modal-title{margin-left: 25px;}
+#Again a{color: white}
+#Again{margin-right: 20px}
+.subject{color:white;}
+.question,.optionBorder{color: black;
+          background: #fff}
+li{margin-top: 4px;}
+
+
+

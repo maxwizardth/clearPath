@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Mathematics</title>
+    <link rel="icon" type="image/x-icon" href="../Quiz Images/Pencil_15px.png">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+     <link rel="stylesheet" href="../style/taymiyah.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../style/subject.css">
+</head>
+
+<body onload="myloader()">
+
+  <div class="lds-ellipsis">
+   <div></div><div></div>
+   <div></div><div></div>
+   <div></div><div></div>
+   <div></div><div></div>
+  </div>
+
+  <div id="myDiv" class="animate-bottom">
+    <!--Welcome page-->
+    <div class="welcome display-1">
+      <p>welcome ! <br>
+          Take the Quiz </p>
+     <button type="button" class="btn buttonStart" data-bs-toggle="modal" id="submitbtn" data-bs-target="#myModal" >Start
+         </button></div>
+  <!-- The Modal -->
+        <div class="modal" id="myModal">
+         <div class="modal-dialog modal-sm">
+          <div class="modal-content text-center">
+
+      <!-- Modal Header -->
+           <div class="modal-header text-center">
+            <h4 class="modal-title" id="modalTitle">ERROR 404</h4>
+            <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+         <div class="modal-body">
+           <h3 class="text-center">Soryy! Sorry!! Sorry!!!</h3>
+           <p>The Page you are looking for is under Construction</p>
+           <hr>
+           <h6 class="text-center">Please wait some days</h6>
+        
+           <hr>
+           <h4 id="yourScore"></h4>
+         </div>
+     
+      <!-- Modal footer -->
+
+         <div class="modal-footer">
+          <div id="Again"><a href="index.html" >Change Subject</a></div>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+            <a href="../index.html" style="text-decoration: none;color: white">Home</a></button>
+         </div>
+        </div>
+       </div>
+     </div>
+    </div>
+
+      
+</div>
+   <hr style="color: white;">
+<script type="text/javascript" src="../script/quizElement.js"></script>
+<script type="text/javascript" src="../script/ThirdTerm.js"></script>
+<script type="text/javascript" src="../script/subjects.js"></script>
+</body>
+</html>

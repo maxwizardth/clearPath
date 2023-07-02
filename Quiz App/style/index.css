@@ -1,0 +1,197 @@
+*{box-sizing: border-box;
+    outline: none;
+    user-select: none;
+    scroll-behavior: smooth;}
+            body{
+                margin: 0;
+                padding: 0;
+                font-size: 17px;
+                font-family: 'Port Lligat Sans', sans-serif;
+                
+                
+            }
+    
+            body{
+              background-image: linear-gradient(rgba(6, 60, 96, 0.2) , rgba(6, 60, 96, 0.5) ), url("../Quiz Images/pen nib.jpg");
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+            }
+    
+            .lds-ellipsis {
+              position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      display:block;
+      position: relative;
+      width: 80px;
+      height: 80px;
+    }
+    .lds-ellipsis div {
+      position: absolute;
+      top: 33px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: whitesmoke;
+      animation-timing-function: cubic-bezier(0, 1, 1, 0);
+    }
+    .lds-ellipsis div:nth-child(1) {
+      left: 8px;
+      animation: lds-ellipsis1 0.6s infinite;
+    }
+    .lds-ellipsis div:nth-child(2) {
+      left: 8px;
+      animation: lds-ellipsis2 0.6s infinite;
+    }
+    .lds-ellipsis div:nth-child(3) {
+      left: 32px;
+      animation: lds-ellipsis2 0.6s infinite;
+    }
+    .lds-ellipsis div:nth-child(4) {
+      left: 56px;
+      animation: lds-ellipsis3 0.6s infinite;
+    }
+    @keyframes lds-ellipsis1 {
+      0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    @keyframes lds-ellipsis3 {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(0);
+      }
+    }
+    @keyframes lds-ellipsis2 {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(24px, 0);
+      }
+    }
+    
+    #myDiv{
+      display: none;
+    
+    }
+    
+    /* Add animation to "page content" */
+    .animate-bottom {
+      position: relative;
+      -webkit-animation-name: animatebottom;
+      -webkit-animation-duration: 1s;
+      animation-name: animatebottom;
+      animation-duration: 1s
+    }
+    
+    @-webkit-keyframes animatebottom {
+      from { bottom:-50px; opacity:0 } 
+      to { bottom:0px; opacity:1 }
+    }
+    
+    @keyframes animatebottom { 
+      from{ bottom:-50px; opacity:0 } 
+      to{ bottom:0px; opacity:1 }
+    }
+    
+            
+    #myUpBtn {
+      display: none;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      font-weight: bold;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color:  #4d1f00;
+      color: white;
+      cursor: pointer;
+      padding: 5px 5px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      text-align: center;
+       vertical-align: middle;
+    }
+    
+    #myBtn:hover {
+      background-color: #555;
+    }
+    
+    
+            h1{font-size: 20vmin;
+              color: whitesmoke;
+              text-shadow: 0px 0px 10px orangered;
+                font-weight: bold;
+                font-family: 'Trade Winds', cursive;
+            }
+    
+            .card img{
+                height: 150px;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 5px 5px 0px 0px;
+               filter: brightness(80%);
+            }
+    
+            .mybtn{
+              background-color: transparent;
+              color: #063c60;
+              padding: 8px 12px;
+              border-radius: 7px;
+              outline: none;
+              border: 1px solid #063c60;
+              opacity: 0.9;
+              transition: .8s ease-in-out;
+            }
+             a{
+              text-decoration: none;
+              color: white;
+            }
+    
+            .mybtn:hover{
+              opacity: 1;
+             background-color: #063c60;
+             color: white;
+             border: none;
+            }
+
+            footer{
+                background-color:#063c60 ;
+                padding: 20px;
+                text-decoration: none;
+                font-size: 18px;
+            }
+            footer a{
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                 font-size: 20px;
+            }
+            footer a:hover{
+              color: white;
+            }
+    
+            .avatar {
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+          

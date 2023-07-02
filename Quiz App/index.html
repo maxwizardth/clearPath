@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style/css_bootstrap.min.css" rel="stylesheet">
+  <script src="style/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style/font-awesome.min.css">
+ 
+ <style type="text/css">
+  body{
+       width: 100vw;
+       }
+  #accordion{width: 100%;
+    margin-bottom: 9px;}
+  .header{background:#339933;
+    color: white;
+    height: 10vh;
+    
+   }
+
+  .header h3{margin: 15px;}
+    .fa{color: white}
+    .card-header{background: #999999;
+      color: white}
+    .card-header:hover{background:  #33aa44;
+      color: white
+      }
+    a.btn{color: white;
+          outline: none;
+          border: inherit;
+        }
+   
+    .containerHome{
+      margin-top: 11vh;}
+
+footer{padding: 12px 0px 9px 22px;
+      background: #55aa77;
+      color: white
+    }
+
+li{list-style: none;
+       line-height: 33px;
+       }
+
+a{text-decoration: none;
+  outline: none;}
+
+</style>
+
+</head>
+<body>
+<div class="header  fixed-top" >
+  <h3>CLEAR PATH COLLEGE</h3>
+</div>
+
+<div class="containerHome">
+  <div class=" mt-3 body home">
+     <h2 class="text-center">Exam CBT Practice</h2>
+     <p class="text-center"><b>Welcome to Clear Path College Online CBT Exam Practice platform…</b></p>
+     <p class="text-center">Hey! All Facilitator are wishing all the best in your Exams!</p>
+
+     <div id="accordion" class="container">
+       <h2>Select cbt subject below to begin!</h2>
+     </div>
+  </div>
+  
+  <div>
+    <p class="info">
+     The links above point to the jamb cbt online practice test for the top 14 subjects in jamb 2022-2023 examination. we are also working on developing offline jamb cbt practice app(laptop and Android). soon you will be able to use it.
+     </p>
+  </div>
+</div>
+
+<footer class="footer">
+     <h2>Connect with Us<hr></h2>
+     <p class="">
+      <a href="https://web.facebook.com/abdullahi.oladejo.10"><i class="fa fa-facebook-square logo" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-whatsapp logo" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/oladejoabdulla7"><i class="fa fa-twitter logo" aria-hidden="true"></i></a>
+       <a href="https://www.instagram.com/maxwizardth/"><i class="fa fa-instagram logo" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-linkedin-square logo" aria-hidden="true"></i></a>
+       <a href="https://github.com/maxwizardth"><i class="fa fa-github logo" aria-hidden="true"></i></a>
+        <h6>Call Hours: 9am-9pm (Mon-Fri)</h6>
+        <h6><a href=""><i class="fa fa-phone logo" aria-hidden="true"></i></a>+2349153036869</h6>
+        <h6><a href=""><i class="fa fa-envelope logo" aria-hidden="true"></i>
+        </a>abdullahioladejo1@gmail.com</h6>
+      </p>
+     <div class="text-center cpy-right">
+    <span id="copy">© <small>clearpathcollege|Designed by Maxwizard</small></span>
+  </div>
+</footer> 
+<script type="text/javascript" src="script/index.js"></script>
+<script type="text/javascript">
+ 
+const card = document.querySelectorAll('.card-header');
+  for (var index=0;index<card.length;index++){
+card[index].addEventListener('click', event => {
+    event.target.firstElementChild.click()
+  })}
+
+let allClass=['Jss1',"JSS2","JSS3","SS1","SS2","SS3"]
+classesCard(allClass)
+</script>
+</body>
+
+</html>
